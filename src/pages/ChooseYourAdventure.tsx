@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
-import { Suggestion } from '../types/index';
-import { getAllThemes, getSuggestionsByTheme } from '../utils/suggestionUtils';
-import { ChevronLeft } from 'lucide-react';
+import { useState, useEffect } from "react";
+import ReactMarkdown from "react-markdown";
+import { Suggestion } from "../types/index";
+import { getAllThemes, getSuggestionsByTheme } from "../utils/suggestionUtils";
+import { ChevronLeft } from "lucide-react";
 
 export default function ChooseYourAdventure() {
   const [allThemes, setAllThemes] = useState<string[]>([]);
@@ -30,29 +30,31 @@ export default function ChooseYourAdventure() {
   };
 
   const levelLabels: Record<number, string> = {
-    0: 'Débutant',
-    1: 'Facile',
-    2: 'Intermédiaire',
-    3: 'Avancé',
-    4: 'Expert',
+    0: "Débutant",
+    1: "Facile",
+    2: "Intermédiaire",
+    3: "Avancé",
+    4: "Expert",
   };
 
   const levelColors: Record<number, string> = {
-    0: 'from-green-600 to-green-700',
-    1: 'from-blue-600 to-blue-700',
-    2: 'from-cyan-600 to-cyan-700',
-    3: 'from-orange-600 to-orange-700',
-    4: 'from-red-600 to-red-700',
+    0: "from-green-600 to-green-700",
+    1: "from-blue-600 to-blue-700",
+    2: "from-cyan-600 to-cyan-700",
+    3: "from-orange-600 to-orange-700",
+    4: "from-red-600 to-red-700",
   };
 
   return (
     <div className="min-h-screen bg-brand-dark">
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-brand-accent mb-12">Votre Aventure</h1>
+        <h1 className="text-4xl font-bold text-brand-accent mb-12">
+          Votre Aventure
+        </h1>
 
         {!selectedTheme ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {allThemes.map(theme => (
+            {allThemes.map((theme) => (
               <button
                 key={theme}
                 onClick={() => handleThemeSelect(theme)}
@@ -89,11 +91,13 @@ export default function ChooseYourAdventure() {
 
             {suggestions.length === 0 ? (
               <div className="text-center py-12">
-                <p className="text-gray-400 text-lg">Aucune suggestion trouvée pour ce thème.</p>
+                <p className="text-gray-400 text-lg">
+                  Aucune suggestion trouvée pour ce thème.
+                </p>
               </div>
             ) : (
               <div className="space-y-6">
-                {suggestions.map(suggestion => (
+                {suggestions.map((suggestion) => (
                   <div
                     key={suggestion.suggestion_id}
                     className="bg-brand-mid rounded-lg p-8 border-l-4 border-brand-accent hover:shadow-lg transition-shadow"
@@ -111,7 +115,7 @@ export default function ChooseYourAdventure() {
                           >
                             {levelLabels[suggestion.suggestion_level]}
                           </span>
-                          {suggestion.suggestion_theme.map(theme => (
+                          {suggestion.suggestion_theme.map((theme) => (
                             <span
                               key={theme}
                               className="px-3 py-1 bg-brand-dark text-brand-accent rounded-full text-sm"
@@ -123,11 +127,15 @@ export default function ChooseYourAdventure() {
                       </div>
                     </div>
                     <div className="prose prose-invert max-w-none text-gray-300">
-                      <ReactMarkdown>{suggestion.suggestion_description}</ReactMarkdown>
+                      <ReactMarkdown>
+                        {suggestion.suggestion_description}
+                      </ReactMarkdown>
                     </div>
                     {suggestion.suggestion_for_session && (
                       <div className="mt-4 pt-4 border-t border-brand-accent/30">
-                        <span className="text-sm text-brand-accent font-semibold">Prêt pour une session</span>
+                        <span className="text-sm text-brand-accent font-semibold">
+                          Prêt pour une session
+                        </span>
                       </div>
                     )}
                   </div>
