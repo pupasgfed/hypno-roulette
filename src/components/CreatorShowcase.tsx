@@ -7,7 +7,7 @@ export default function CreatorShowcase() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="md:col-span-1">
             <img
-              src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+              src="https://hypnosekinky.wordpress.com/wp-content/uploads/2025/02/photo-06-10-2024-20-21-43.jpg?w=769?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
               alt="Creator"
               className="w-full h-full rounded-lg object-cover shadow-xl aspect-square"
             />
@@ -18,18 +18,24 @@ export default function CreatorShowcase() {
               À propos de Pup Asgfed
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              Bienvenue ! Je suis passionné par l'hypnose en kink. J'ai créé ce
+              Bienvenue dans mon monde d'hypnose kinky!
+            </p>
+            <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+              Pour enrichir les ateliers et formations hypno-dom, j'ai créé ce
               générateur d'idées pour aider les hypnotiseurs, curieux et autres
-              à trouver l'inspiration. Avec des années d'expérience et beaucoup
-              (trop) de vidéos de visualisés, j'ai compilé une collection de
-              suggestions pour vous aider à offrir les meilleures sessions
-              possibles à vos partenaires.
+              à trouver l'inspiration.
+            </p>
+            <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+              Avec des années d'expérience et beaucoup (trop) de vidéos de
+              visualisés, j'ai compilé une collection de suggestions pour vous
+              aider à offrir les meilleures sessions possibles à vos
+              partenaires.
             </p>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               Mon objectif est de vous fournir des outils pratiques pour faire
               de l'hypnose kinky de qualité. Je souhaite faire des choses qui
-              enrichissent votre pratique. Explorez, découvrez et transformez
-              vos sessions d'hypnose.
+              enrichissent votre pratique. J'espère que tu vivras plein de
+              choses sympas !
             </p>
             <a
               href="https://www.hypnosekinky.com"

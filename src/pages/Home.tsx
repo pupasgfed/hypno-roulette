@@ -10,8 +10,8 @@ export default function Home() {
             Générateur d'Idées
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Trois façons puissantes de générer des idées de sessions d'hypnose.
-            Parfait pour les praticiens de tous niveaux.
+            Mon outil pour créer une session complète avec chaque étape clé.
+            <i> Y compris une partie kinky</i>.
           </p>
         </div>
 
@@ -27,11 +27,11 @@ export default function Home() {
               La Roulette d'Idées
             </h2>
             <p className="text-gray-300 mb-4">
-              Générateur rapide d'une seule suggestion. Filtrez par thème et
-              tournez pour obtenir des idées aléatoires une à une.
+              Générateur rapide d'une seule suggestion. Tu peux aussi filtrer
+              par thème pour obtenir des idées tirées au sort.
             </p>
             <div className="text-brand-accent group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
-              Découvrir
+              Fais voir une idée
               <span>→</span>
             </div>
           </Link>
@@ -44,14 +44,14 @@ export default function Home() {
               <Sparkles size={32} className="text-brand-dark" />
             </div>
             <h2 className="text-2xl font-bold text-brand-accent mb-3">
-              Session Complète
+              Générer une Session Complète
             </h2>
             <p className="text-gray-300 mb-4">
-              Générez des sessions complètes de 9 étapes avec une progression de
-              difficulté équilibrée. Aléatoire ou thème personnalisé.
+              Générer des sessions complètes de 9 étapes avec une progression.
+              En version SFW et NSFW pour les coquinous.
             </p>
             <div className="text-brand-accent group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
-              Découvrir
+              Découvrir les idées
               <span>→</span>
             </div>
           </Link>
@@ -67,7 +67,7 @@ export default function Home() {
               Votre Aventure
             </h2>
             <p className="text-gray-300 mb-4">
-              Explorez toutes les suggestions organisées par thème. Parfait pour
+              Explorer toutes les suggestions organisées par thème. Parfait pour
               découvrir de nouvelles idées en vous amusant.
             </p>
             <div className="text-brand-accent group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">
@@ -85,25 +85,30 @@ export default function Home() {
             <li className="flex gap-3">
               <span className="text-brand-accent font-bold">•</span>
               <span>
-                Toutes les suggestions sont soigneusement sélectionnées pour les
-                hypnothérapeutes professionnels
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-brand-accent font-bold">•</span>
-              <span>Les niveaux de difficulté vont du débutant à l'expert</span>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-brand-accent font-bold">•</span>
-              <span>
-                Filtrez par thème pour trouver exactement ce dont vous avez
-                besoin
+                J'ai fait une sélection avec les meilleures suggestions que j'ai
+                pu retrouver dans le web depuis plusieurs années.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-brand-accent font-bold">•</span>
               <span>
-                Générez des sessions complètes avec une progression équilibrée
+                Les niveaux de réceptivité vont de la simple relaxation aux
+                hallucinations complètes, puis les suggestions 'plutôt kinky' et
+                sexuelles ou érotiques
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-brand-accent font-bold">•</span>
+              <span>
+                Tu peux aussi filtrer par thème pour trouver exactement ce dont
+                tu as besoin
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-brand-accent font-bold">•</span>
+              <span>
+                Générer des sessions complètes : intéressantes, diversifiées et
+                progressives.
               </span>
             </li>
           </ul>

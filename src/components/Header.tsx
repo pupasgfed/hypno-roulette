@@ -26,10 +26,10 @@ export default function Header() {
             Réserver une session
           </a>
           <a
-            href="https://www.hypnosekinky.com/pup-asgfed-moderateur-hypnosekinky/"
+            href="https://www.hypnosekinky.com/newsletter"
             className="text-gray-300 hover:text-brand-accent transition-colors"
           >
-            À propos
+            Rejoindre la Newsletter
           </a>
         </nav>
       </div>

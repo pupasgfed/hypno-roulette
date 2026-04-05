@@ -10,26 +10,26 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#services"
+                  href="https://www.hypnosekinky.com/mentions-legales"
                   className="text-gray-400 hover:text-brand-accent transition-colors"
                 >
-                  Services
+                  Mentions Légales
                 </a>
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="https://www.hypnosekinky.com/about/terms"
                   className="text-gray-400 hover:text-brand-accent transition-colors"
                 >
-                  Contact
+                  Conditions et TGU
                 </a>
               </li>
               <li>
                 <a
-                  href="#faq"
+                  href="https://www.hypnosekinky.com/questions-reponses"
                   className="text-gray-400 hover:text-brand-accent transition-colors"
                 >
-                  FAQ
+                  FAQ Hypnose
                 </a>
               </li>
             </ul>
@@ -38,25 +38,19 @@ export default function Footer() {
             <h3 className="text-brand-accent font-semibold mb-4">Me suivre</h3>
             <div className="flex gap-4">
               <a
-                href="#facebook"
-                className="text-gray-400 hover:text-brand-accent transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#instagram"
+                href="https://www.instagram.com/pupasgfed/"
                 className="text-gray-400 hover:text-brand-accent transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="#twitter"
+                href="https://x.com/pupasgfed"
                 className="text-gray-400 hover:text-brand-accent transition-colors"
               >
                 <Twitter size={20} />
               </a>
               <a
-                href="#email"
+                href="https://www.hypnosekinky.com/newsletter"
                 className="text-gray-400 hover:text-brand-accent transition-colors"
               >
                 <Mail size={20} />
@@ -79,7 +73,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-brand-mid pt-8 text-center text-gray-500 text-sm">
-          <p>Générateur d'Idées © 2026 - @pupasgfed</p>
+          <p>
+            Roulette hypnosekinky © 2026 - @pupasgfed - tous le détails sur
+            hypnosekinky.com
+          </p>
         </div>
       </div>
     </footer>

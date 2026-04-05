@@ -66,7 +66,7 @@ export default function ChooseYourAdventure() {
                     {theme.charAt(0).toUpperCase() + theme.slice(1)}
                   </h2>
                   <p className="text-brand-dark/70 text-sm group-hover:text-brand-dark/80">
-                    Explorez les suggestions
+                    Explorer les suggestions
                   </p>
                 </div>
                 <div className="absolute bottom-4 right-4 text-brand-dark/50 group-hover:text-brand-dark transition-colors">
