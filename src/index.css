@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+    background-color: #323347;
+    color: #e5e7eb;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+}
+
+@layer components {
+  .prose-invert h1,
+  .prose-invert h2,
+  .prose-invert h3 {
+    @apply text-brand-accent;
+  }
+
+  .prose-invert a {
+    @apply text-brand-accent hover:text-white;
+  }
+
+  .prose-invert code {
+    @apply text-brand-accent/80 bg-brand-dark/50 px-2 py-1 rounded;
+  }
+
+  .prose-invert strong {
+    @apply font-bold text-gray-100;
+  }
+
+  .prose-invert em {
+    @apply italic text-gray-300;
+  }
+
+  .prose-invert ul,
+  .prose-invert ol {
+    @apply ml-4;
+  }
+
+  .prose-invert li {
+    @apply my-2;
+  }
+}
